@@ -32,6 +32,10 @@
     <p>{{ $nome }}</p>
 @endforeach
 
+<hr>
+<h1>Teste de alteração com deploy automático usando GitHub Actions</h1>
+<hr>
+
 @php
     $name = "Gustavo";
     echo $name;
